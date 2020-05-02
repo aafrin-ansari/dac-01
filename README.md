@@ -1,5 +1,4 @@
-### PG-DAC Feb '20 
-### PRN: 001
+### VITA PG-DAC Feb '20 
 
 **_Assignments and notes_:** _Sub: AWS_
 
