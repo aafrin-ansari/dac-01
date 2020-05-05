@@ -1,4 +1,4 @@
-## Advantages of Cloud Computing:
+## <ins>Advantages of Cloud Computing:</ins>
 
 - On-demand service availability.
 - High speed services compared to traditional methods.
