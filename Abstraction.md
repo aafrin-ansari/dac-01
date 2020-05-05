@@ -23,4 +23,4 @@
 - _**e.g. Virtual machine (EC2), disks (Volume)**_
 #
 #
-[Previous](AmazonEC2.md)
+[Previous](Amazon%20EC2.md)
