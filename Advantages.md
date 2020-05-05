@@ -9,5 +9,5 @@
 - Large storage.    
  #
  #
-<table width = "300%"><tr><th><a href = "Introduction.md">Previous</a></th><th> <a href = "Amazon%20EC2.md">Next</a></th></tr></table>
+<table width = "300%"><tr><th><a href = "Cloud.md">Previous</a></th><th> <a href = "Amazon%20EC2.md">Next</a></th></tr></table>
 
