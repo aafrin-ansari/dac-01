@@ -1,4 +1,4 @@
-## What is EC2?
+## <ins>What is EC2?</ins>
 - _**Elastic Compute Cloud**_ _(EC2)_ is a on-demand web service.
 - It can be considered as a rented computer with the benefits of resizability.
 - This EC2 instance is a virtual machine.
