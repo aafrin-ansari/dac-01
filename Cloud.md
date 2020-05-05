@@ -1,4 +1,4 @@
-## Cloud Computing:
+## <ins>Cloud Computing:</ins>
 
 - The **_cloud computing_** is a technology that allows us to use computing services using Internet instead of local storage of user's computer. 
 - These servers are present at the data-centers worldwide. This provides us access to these servers from almost any device as the computing and data storage doesn't take place locally. 
