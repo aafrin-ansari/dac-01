@@ -23,6 +23,4 @@
 - _**e.g. Virtual machine (EC2), disks (Volume)**_
 #
 #
-#
- #
 <table width = "300%"><tr><th><a href = "Amazon%20EC2.md">Previous</a></th><th> <a href = "Security.md">Next</a></th></tr></table>
