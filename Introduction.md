@@ -5,4 +5,6 @@
 - By using cloud computing, users can rent resources on-demand from the cloud-service providers. The management of physical servers and software applications is done by these service providers. 
 - The user is only charged for using the service as per pay-as-you-go model.
 - Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) are some of the well known cloud-service providers.
- 
+ #
+ #
+<table width = "300%"><tr><th><a href = "Introduction.md">Back</a></th><th> <a href = "Advantages.md">Next</a></th></tr></table>
