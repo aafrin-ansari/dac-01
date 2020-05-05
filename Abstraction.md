@@ -23,4 +23,4 @@
 - _**e.g. Virtual machine (EC2), disks (Volume)**_
 #
 #
-[Back](Abstraction.md)
+[Back](Amazon EC2.md)
