@@ -22,6 +22,4 @@
 - Provides highest flexibility and control over resources.
 - _**e.g. Virtual machine (EC2), disks (Volume)**_
 
-</br>
-</br>
-[Back](https://github.com/aafrin-ansari/dac-01/blob/aws-notes/Amazon%20EC2.md)
+[Back](dac-01/tree/aws-notes/Abstraction.md)
