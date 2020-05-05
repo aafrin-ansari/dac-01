@@ -22,4 +22,4 @@
 - Provides highest flexibility and control over resources.
 - _**e.g. Virtual machine (EC2), disks (Volume)**_
 
-[Back](dac-01/Abstraction.md)
+[Back](dac-01/aws-notes/Abstraction.md)
