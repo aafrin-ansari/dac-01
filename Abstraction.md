@@ -23,6 +23,4 @@
 - _**e.g. Virtual machine (EC2), disks (Volume)**_
 #
 #
-#
-
-[Back](dac-01/blob/master/aws-notes/Abstraction.md)
+[Back](aws-notes/Abstraction.md)
