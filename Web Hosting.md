@@ -48,4 +48,4 @@ Click on **Object URL**. It would direct you to your _static webpage._
  ![](Images/staticpg.png)
 #
 #
-<table width = "300%"><tr><th><a href = "S3.md">Previous</a></th><th> <a href = "x.md">Next</a></th></tr></table>
+<table width = "300%"><tr><th><a href = "S3.md">Previous</a></th><th> <a href = "Linux.md">Next</a></th></tr></table>
