@@ -24,15 +24,28 @@ This property would now show a checked-mark saying **Bucket Hosting**.
  ![](Images/buckethosting.png)
 #### Step 4:
 Now click on **Permissions** menu. You'd find _**Block all public access**_ _**ON**_. Click on **Edit** available on the top right. De-select _**Block all public access**_ and **Save**.
+ #
+ ![](Images/Deselect.png)
+ 
 It would ask for confirmation. Type _confirm_ and click **Confirm**.
 This might show an alert as _An unexpected error occurred_. Just switch the **Permissions** tab and check again. You're good to go.
+ #
+ ![](Images/off.png)
 #### Step 5.
-If you repeat **Step 2** now, you'd find **Make Public** option has turned active. CLick on it. A _dialogue box_ would pop-up. Hit **Make Public**.
-#### Step 6:
-Click on the website-content file that you've uploaded. You must be able to see _a slide-out panel_ on the right.
-#### Step 7:
-Click on **Object URL**. It would direct you to your static webpage.
+If you repeat **Step 2** now, you'd find **Make Public** option has turned active. 
+ #
+ ![](Images/makepublic.png)
+ 
+Click on it. A _dialogue box_ would pop-up. Hit **Make Public**.
 
+#### Step 6:
+Click on the website-content file that you've uploaded. You must be able to see _a slide-out panel_ on the right. You'd find **Object URL** in this panel.
+ #
+ ![](Images/objecturl.png)
+#### Step 7:
+Click on **Object URL**. It would direct you to your _static webpage._
+ #
+ ![](Images/staticpg.png)
 #
 #
 <table width = "300%"><tr><th><a href = "S3.md">Previous</a></th><th> <a href = "x.md">Next</a></th></tr></table>
