@@ -1,0 +1,19 @@
+ <!-- Create two text boxes and a button , on button click it should copy data from one text box to another-->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body><br/><br/>
+
+	<input type = "text" size = "25" id = "box1" placeholder = "Type something"/>
+	<input type = "text" size = "25" id = "box2" placeholder = "Hit Copy to copy the contents"/><br/><br/>
+	<input type = "button"  value = "Copy" onclick = "copyFunc()"/>
+
+	<script>
+	function copyFunc(){
+	document.getElementById('box2').value = document.getElementById('box1').value;
+	}
+	</script>
+	
+</body>
+</html>
