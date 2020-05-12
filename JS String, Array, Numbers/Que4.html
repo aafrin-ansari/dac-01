@@ -1,0 +1,23 @@
+ <!-- Write your name with font size 4. On button click change it to 7-->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body>
+<p id = "font"></p>
+
+	<script>
+	var name = "Aafrin";
+	document.getElementById('font').innerHTML = name.fontsize(4);
+	</script>
+	
+	<input type = "button" value = "Change font-size!" onclick = 'changeFont()'/>
+	
+	<script>
+	function changeFont(){
+	document.getElementById('font').innerHTML = name.fontsize(7);
+	}
+	</script>
+	
+</body>
+</html>
