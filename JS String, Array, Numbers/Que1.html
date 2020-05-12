@@ -1,0 +1,28 @@
+ <!-- Create an array having 10 numbers , write a function whose  job is to return max number from the array
+
+ -->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body></br></br>
+
+	<h3>Multiples of 11:</h3>
+	<p id = "array"></p>
+	
+	<h3>Max number is:</h3>
+	<p id = "max"></p>
+	
+	<input type = "button" value = "Find Max no." onclick = "findMax()"/>
+	
+	<script>
+	var Numbers = [ "22", "11", "33", "55", "44", "99", "110", "77", "88", "66" ];
+	document.getElementById('array').innerHTML = Numbers;
+	
+	function findMax(){
+	document.getElementById('max').innerHTML = Math.max.apply(null,Numbers);
+	}
+	</script>
+
+</body>
+</html>
