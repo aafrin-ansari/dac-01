@@ -1,0 +1,27 @@
+ <!-- Create an array having 10 numbers , write a function whose  job is to return max number from the array
+
+ -->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body></br></br>
+
+	<h3>Names:</h3>
+	<p id = "array"></p>
+	
+	<input type = "button" value = "Sort in Descending" onclick = "desc()"/>
+	
+	<script>
+	var Names = [ "Shaggy", "Fred", "Scooby", "Velma", "Daphne"];
+	document.getElementById('array').innerHTML = Names;
+	
+	function desc(){
+	Names.sort();
+	Names.reverse();
+	document.getElementById('array').innerHTML = Names;
+	}
+	</script>
+
+</body>
+</html>
