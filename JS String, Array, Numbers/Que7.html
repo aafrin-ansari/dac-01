@@ -1,0 +1,21 @@
+ <!-- Create an array having 10 numbers and display it in ascending order -->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body></br></br>
+	<p>Multiples of 11:</p>
+	<p id = "array"></p>
+	<input type = "button" value = "Sort in Ascending" onclick = "asc()"/>
+	<script>
+	var Numbers = [ "22", "11", "33", "55", "44", "99", "110", "77", "88", "66" ];
+	document.getElementById('array').innerHTML = Numbers;
+	
+	function asc(){
+	Numbers.sort(function(a,b){return a - b}); 		//	Numeric-sort
+	document.getElementById('array').innerHTML = Numbers;
+	}
+	</script>
+
+</body>
+</html>
