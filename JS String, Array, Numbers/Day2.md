@@ -1,6 +1,6 @@
 		Day2
 Que1.
- Create an array having 10 numbers , write a function whose  job is to return max number from the array
+Create an array having 10 numbers , write a function whose  job is to return max number from the array
 
 
 Que2.
