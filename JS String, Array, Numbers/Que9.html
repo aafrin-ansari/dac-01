@@ -1,0 +1,29 @@
+ <!-- Declare a string having an email Id and check if @ is there in the string or not -->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body></br></br>
+	<h2>Check @ in email</h2>
+	<p id = "em"></p>
+	<p id = "eid"></p>
+	
+	<input type = "button" value = "Check" onclick = "find()"/>
+	
+	<script>
+	var str = "scoobydoo@gmail.com";
+	var chk = str.search("@");
+	
+	document.getElementById("em").innerHTML = str;
+	
+	function find(){
+	if(chk != -1){
+	document.getElementById("eid").innerHTML = "@ is present";
+	}
+	else{
+	document.getElementById("eid").innerHTML = "Invalid form";
+	}
+	}
+	</script>
+</body>
+</html>
