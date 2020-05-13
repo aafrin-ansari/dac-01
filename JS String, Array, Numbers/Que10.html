@@ -1,0 +1,27 @@
+ <!-- Declare a string having a 10 digit mobile number. Write a function whose job is to check if it has 10 digits or not-->
+ 
+<!doctype HTML>
+<html>
+<head>JavaScript</head>
+<body></br></br>
+	<h2>Check digits of mobile-no</h2>
+	<p id = "mb"></p>
+	<p id = "chk"></p>
+	<input type = "button" value = "Check" onclick = "check()"/>
+	
+	<script>
+	var ph = "9876543210";	
+	document.getElementById("mb").innerHTML = ph;
+	
+	function check(){
+	
+		if(ph.length == 10){
+		document.getElementById("chk").innerHTML = "Valid number!";
+		}
+		else{
+		document.getElementById("chk").innerHTML = "Invalid!";
+		}
+	}
+	</script>
+</body>
+</html>
