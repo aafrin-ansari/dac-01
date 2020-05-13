@@ -36,7 +36,7 @@ Declare a string   having an email Id and check if @ is there in the string or n
 
 
 Que10.
-Declare a string having a 10 digit mobile number. Wwrite a function whose  job is to check if it has 10 digits or not.
+Declare a string having a 10 digit mobile number. Write a function whose  job is to check if it has 10 digits or not.
 
 
 Que11. 
