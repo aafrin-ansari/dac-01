@@ -1,0 +1,17 @@
+ <!-- Write a function whose  job is to return a random number -->
+<html>
+<head>JavaScript</head>
+<body></br></br>
+
+	<h3>Get random number between 1-100!</h3>
+	<p id = "rdn"></p>
+	<input type = "button" value = "Click!" onclick = 
+	"document.getElementById('rdn').innerHTML = randomNum(1,100)"/>
+	
+	<script>
+	function randomNum(min, max) {
+		return Math.floor(Math.random() * (max - min + 1) ) + min;
+	}
+	</script>
+</body>
+</html>
