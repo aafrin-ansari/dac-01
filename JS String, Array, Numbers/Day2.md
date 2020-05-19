@@ -32,7 +32,7 @@ Create an array having 5 names and display it in descending order.
 
 
 Que9.
-Declare a string   having an email Id and check if @ is there in the string or not.
+Declare a string having an email Id and check if @ is there in the string or not.
 
 
 Que10.
