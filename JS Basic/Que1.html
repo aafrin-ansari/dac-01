@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>Javascript</head>
+<body>
+</br>
+</br>
+<input type = "number" id = "n1" placeholder = "Enter num 1" /></br></br>
+<input type = "number" id = "n2" placeholder = "Enter num 2" /></br></br>
+<input type = "number" id = "n3" placeholder = "Enter num 3" /></br></br>
+<p id = "max"></p>
+<button onclick = "findMax()">Find maximum</button>
+	<script>
+		function findMax() {
+		 var num1 = document.getElementById('n1').value;
+		 var num2 = document.getElementById('n2').value;
+		 var num3 = document.getElementById('n3').value;
+		 var max = Math.max(num1,num2,num3);
+		 
+		 document.getElementById('max').innerHTML = "Maximum number is"+ " " + max;
+		 
+		}
+	</script>
+</body>
+</html>
