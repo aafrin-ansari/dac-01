@@ -1,0 +1,97 @@
+<!-- Form - Validation -->
+<!doctype html>
+<html>
+<head>
+<title>Javascript Form-Validation</title>
+<style>
+#form-label {
+font-family: 'Poppins', sans-serif;
+font-weight:200;
+color: #0c317a;
+}
+body {
+	background-color: beige;
+}
+</style>
+</head>
+<body>
+<div style = "width: 300px; height: 300px; margin: 0 auto;">
+<h2><label id = "form-label">Register here!</label></h2>
+<form name="myform" id ="form1" onsubmit=" return validateForm()">
+<br/>
+<br/>
+<label style ="color: #ff3434;">All text fields are compulsory!</label><br/><br/><br/>
+<label id = "form-label"> Username: </label><br/>
+<input name = "user" type = "text"/>
+<br/><br/>
+
+<label id = "form-label">Password: </label><br/>
+<input name = "pswd" type = "password"/>
+<br/><br/>
+
+<label id = "form-label">Mobile: </label><br/>
+<input name = "ph" type = "text" />
+<br/><br/>
+
+<label id = "form-label">Address: </label><br/>
+<textarea name = "add" cols = "22" rows = "8" ></textarea>
+<br/><br/>
+
+<label id = "form-label">Age:</label><br/>
+<input id = "age1" type = "number"/>
+<br/><br/><br/>
+
+<button id = "form-label" type = "submit">Submit</button>
+</form>
+
+<script>
+	function validateForm() {
+	
+	var uname = document.myform.user.value;
+	var pass =  document.myform.pswd.value;
+	var mobile =  document.myform.ph.value;
+	var address =  document.myform.add.value;
+	var age =  document.myform.age1.value;
+
+		
+		if(uname.length<3 || uname.length>15){
+			alert("Username must contain minimun 3 and maximum 15 characters");
+			return false;
+		}
+		
+		else if(pass.length<8){
+			alert("Password must contain more than 8 characters");
+			return false;
+		}
+		
+		else if(isNaN(mobile)){
+			alert("Enter valid mobile number");
+			return false;
+		}
+		
+		else if(mobile.length != 10){
+			alert("Mobile number must contain 10 digits");
+			return false;
+		}
+		
+		else if(address == "" || address == null){
+			alert("Address cannnot be empty");
+			return false;
+		}
+		
+		else if(age<18 || age>100) {
+			alert("Age must be between 18 and 100");
+			return false;
+		}
+		
+		else if(uname && pass && mobile && address && age) {
+			alert("Registration successful");
+			document.getElementById("form1").reset();
+			return false;
+		}
+}
+</script>
+</div>
+</body>
+</html>
+ 
