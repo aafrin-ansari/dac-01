@@ -6,7 +6,6 @@
 <style>
 #form-label {
 font-family: 'Poppins', sans-serif;
-font-weight:200;
 color: #0c317a;
 }
 body {
@@ -17,6 +16,7 @@ body {
 <body>
 <div style = "width: 300px; height: 300px; margin: 0 auto;">
 <h2><label id = "form-label">Register here!</label></h2>
+	
 <form name="myform" id ="form1" onsubmit=" return validateForm()">
 <br/>
 <br/>
@@ -54,22 +54,22 @@ body {
 	var age =  document.myform.age1.value;
 
 		
-		if(uname.length<3 || uname.length>15){
+		if(uname.length<3 || uname.length>15) {
 			alert("Username must contain minimun 3 and maximum 15 characters");
 			return false;
 		}
 		
-		else if(pass.length<8){
+		else if(pass.length<8) {
 			alert("Password must contain more than 8 characters");
 			return false;
 		}
 		
-		else if(isNaN(mobile)){
+		else if(isNaN(mobile)) {
 			alert("Enter valid mobile number");
 			return false;
 		}
 		
-		else if(mobile.length != 10){
+		else if(mobile.length != 10) {
 			alert("Mobile number must contain 10 digits");
 			return false;
 		}
