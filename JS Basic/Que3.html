@@ -1,0 +1,32 @@
+ <!-- Print your name 5 times using h1 to h5 tag dynamically at run time -->
+ <!doctype html>
+ <html>
+ <body>
+ Javascript
+ </br>
+ </br>
+ </br>
+ 
+	<input type "text" id = "name" placeholder = "Enter your name" /></br></br>
+	Click below to see different font sizes! </br></br>
+	<button onclick = "sizeChange()">Click!</button>
+ 
+	<h1 id ="h1"></h1>
+	<h2 id ="h2"></h2>
+	<h3 id ="h3"></h3>
+	<h4 id ="h4"></h4>
+	<h5 id ="h5"></h5>
+ 
+	<script>
+		function sizeChange() {
+			var uname = document.getElementById('name').value;
+			document.getElementById('h1').innerHTML = uname;
+			document.getElementById('h2').innerHTML = uname;
+			document.getElementById('h3').innerHTML = uname;
+			document.getElementById('h4').innerHTML = uname;
+			document.getElementById('h5').innerHTML = uname;
+		}
+	</script>
+	
+ </body>
+ </html>
