@@ -53,39 +53,45 @@ body {
 	var address =  document.myform.add.value;
 	var age =  document.myform.age1.value;
 
-		
+		//username
 		if(uname.length<3 || uname.length>15) {
 			alert("Username must contain minimun 3 and maximum 15 characters");
 			return false;
 		}
 		
+		//password
 		else if(pass.length<8) {
 			alert("Password must contain more than 8 characters");
 			return false;
 		}
 		
+		//valid mobile no
 		else if(isNaN(mobile)) {
 			alert("Enter valid mobile number");
 			return false;
 		}
 		
+		//mobile no digits
 		else if(mobile.length != 10) {
 			alert("Mobile number must contain 10 digits");
 			return false;
 		}
 		
+		//address
 		else if(address == "" || address == null){
 			alert("Address cannnot be empty");
 			return false;
 		}
 		
+		//age
 		else if(age<18 || age>100) {
 			alert("Age must be between 18 and 100");
 			return false;
 		}
 		
+		//return true
 		else {
-			alert("Registration successful");
+			alert("Registration successful"); 
 			document.getElementById("form1").reset();
 			return true;
 		}
