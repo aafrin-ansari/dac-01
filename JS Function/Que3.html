@@ -1,0 +1,32 @@
+<!-- write a function sum with no parameter 
+but it will do the sum of numbers passed in 
+function call eg sum(2,3,5), sum(2,4).
+So your definition will work irrespective 
+of the number of parameters passed -->
+<!doctype html>
+<html>
+<head>
+Javascript
+<title>No parameters</title>
+</head>
+</br>
+</br>
+Sum of first 10 positive no:
+<p id = "op"></p></br>
+Sum of first five multiples of 10:
+<p id = "op1"></p></br>
+<body>
+	<script>
+		function sum() {
+			var sum = 0;
+			var i;
+			for(i=0; i<arguments.length; i++) {
+			sum += arguments[i];
+			}
+		return sum;
+	}
+	document.getElementById('op').innerHTML = sum(1,2,3,4,5,6,7,8,9,10);
+	document.getElementById('op1').innerHTML = sum(10,20,30,40,50);
+	</script>
+</body>
+</html>

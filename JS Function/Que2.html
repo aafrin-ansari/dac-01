@@ -1,0 +1,20 @@
+<!--write a self invoking function whose job is to return square of a number -->
+<!doctype html>
+<html>
+<head>
+Javascript
+<title>Self-invoking function</title>
+</head>
+</br>
+</br>
+Square of 99:
+<p id = "self"></p>
+<body>
+<script>
+var sqr=(function(i) {
+return i*i;
+})(99);
+document.getElementById('self').innerHTML = sqr;
+</script>
+</body>
+</html>
