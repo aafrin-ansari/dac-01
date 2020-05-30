@@ -1,0 +1,28 @@
+<!-- Write your friends name using OL tag. 
+Create a button whose job is to delete the 1st name from the OL tag.-->
+<!doctype html>
+<html>
+<head>Javascript
+<title>Remove from list</title>
+</head>
+<body>
+</br></br>
+	<ol>
+		<li>Fred</li>
+		<li>Daphne</li>
+		<li>Velma</li>
+		<li>Shaggy</li>
+		<li>Scooby</li>
+	</ol>
+
+<label>Delete the topmost name:</label>
+<button onclick = "clr()">Remove</button>
+<script>
+	function clr() {
+		var del = document.getElementsByTagName('li');
+		del[0].remove();
+		}
+</script>
+</body>
+</html>
+
