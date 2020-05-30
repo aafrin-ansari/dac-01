@@ -1,0 +1,53 @@
+<!-- Create text box and a span tag  ask user to enter password . 
+Rule for password is
+
+o It must have at least one capital character
+o It must have at least one digit
+o It must have at least 1 special symbol
+
+On change event it should display appropriate error message
+For example if user enters “Vita” error should be "please 
+use one digit  use one symbol."
+-->
+<!doctype html>
+<html>
+<head>Javascript</head>
+<title>Password check</title>
+<body>
+</br></br>
+Set Username:<input id = 'un' type = 'text'size = '30' placeholder = 'Enter username' required /></br></br>
+Set password:<input id = 'pswd'  size = '30'type = 'password' placeholder = 'Enter password' onchange = 'checkPswd()'/></br></br>
+<span id = 'err' style = 'color:red;'></span>
+<script>
+	function checkPswd() {
+		var p1 = document.getElementById('pswd').value;
+		var u = document.getElementById('un').value;
+	
+		if(u == null || u == "") {
+		alert("Username is empty");
+		}
+		
+		else if(p1.length<8) {
+		document.getElementById('err').innerHTML = "Password strength: Weak! Use minimum 8 characters";
+		}
+		
+		else if(!(p1.match(/[A-Z]/))) {
+		document.getElementById('err').innerHTML = "Password must contain atleast one letter in uppercase!";
+		}
+		
+		else if(!(p1.match(/[0-9]/))) {
+		document.getElementById('err').innerHTML = "Password must contain atleast one digit!";
+		}
+		
+		else if(!(p1.match(/[~,!, @, #. $ ,% ,^,&,*,_,-,(,),\,/]/))) {
+		document.getElementById('err').innerHTML = "Password must contain atleast one special character!";
+		}
+		
+		else {
+		document.getElementById('err').style.color = 'green';
+		document.getElementById('err').innerHTML = "Password strength: Good!";
+		}
+	}
+</script>
+</body>
+</html>
