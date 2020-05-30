@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>Javascript
+<title>Onchange: Error</title>
+</head>
+
+<body>
+</br>
+</br>
+
+	If no text entered, display error msg</br></br>
+	<input type = "text" id = 'txt' size = "30" placeholder = "Type something and hit Enter key" onchange = "copy()"/>
+		
+	<span id = 'paste'><span>
+	<script>
+	function copy() {
+	
+		var textBox = document.getElementById('txt').value;
+		textBox.toString();
+		
+		if(textBox == "" || textBox == null) {
+		document.getElementById('paste').innerHTML = "Error: No data entered!";
+		}	
+	}
+
+</script>
+</body>
+</html>
