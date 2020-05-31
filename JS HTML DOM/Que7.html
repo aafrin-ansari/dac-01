@@ -1,0 +1,60 @@
+<!--
+Write at least 3 paragraphs. 
+Create a button on click it should count number 
+of p tags used in document. 
+Also give blue background colour to all p tags.
+-->
+<!doctype.html>
+<html>
+<head>
+<title>P Tag</title>
+</head>
+<body>
+20th July,2015</br></br>
+<p>
+Each day a bright one,</br>
+Followed by the good old Sun.</br>
+While nature's joy swells up to the skies,</br>
+"Oh it's morning already!" our worked up world sighs.</br></br>
+</p>
+<p>
+Slowly the chirps and chaos begin to fade,</br>
+The busy bees get along with the life they have made.</br>
+Treating their young ones with love and care,</br>
+Oh look, there is the mother dove.</br></br>
+</p>
+<p>
+The day goes by and the evening comes</br>
+The sharpness of the old Sun is now blunt</br>
+The waves keep making the sea foam</br>
+And all are now heading to home.</br></br>
+</p>
+<p>
+And by the time baby sparrow got lost,</br>
+Some of his mates flew down to the Aust.</br>
+Not everyone has returned home happy and bright,</br>
+Few sailed through while few lost the light.</br></br>
+</p>
+<p>
+But won't the Sun turn again full bright?</br>
+Nothing stays permamently out of light.</br>
+The flora, the fauna welcomes it with joy and pride!</br>
+"Oh it's morning again!" But the humans sigh.</br></br>
+- Aafrin Ansari
+</p>
+<button onclick = "countPara()">Count P tags</button></br></br>
+<span id = "disp"></span>
+<script>
+	function countPara() {
+
+		var pTag = document.getElementsByTagName('p');
+		document.getElementById('disp').innerHTML = " No of p tags are " +pTag.length;
+		
+		for(let i=0; i<pTag.length;i++) {
+			pTag[i].style.backgroundColor = 'blue';
+		}
+	}
+</script>
+</body>
+</html>
+
