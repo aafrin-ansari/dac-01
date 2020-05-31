@@ -1,0 +1,42 @@
+<!-- Create three check boxes showing book name and price. 
+Create a text box. As per selection of check box , 
+text box should show total of selected price. -->
+
+<!doctype html>
+<html>
+<head>Javascript
+</br>
+</br>
+<title>Billing</title>
+</head>
+<body>
+</br>
+</br>
+<table><tr><th>Book</th><th>---</th><th>Price</th></table></br>
+ABC <input type = "checkbox" value = "400" name = "chk" onchange = "bill()"; /> 400 Rs</br></br>
+
+BCD <input type = "checkbox" value = "600" name = "chk" onchange = "bill()"/> 600 Rs</br></br>
+
+XYZ <input type = "checkbox" value = "500" name = "chk" onchange = "bill()"/> 500 Rs</br></br>
+
+<b>Amount: <text id = "amt">0 Rs</text></b>
+
+<script>
+
+	function bill() {
+		var bill = 0;
+		var list = document.getElementsByName('chk');
+		var len = list.length;
+		
+		for(var i=0; i<len; i++){
+		
+			if(list[i].checked){
+				bill = bill + parseFloat(list[i].value);
+			}
+			document.getElementById('amt').innerHTML = bill +" Rs";
+		}
+	}
+	
+</script>
+</body>
+</html>
